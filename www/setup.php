@@ -1,4 +1,5 @@
 <?php
+include 'auth.php';
 include 'db.php';
 
 mysqli_query($conn, "DROP TABLE IF EXISTS libros");
