@@ -1,4 +1,5 @@
-<?php 
+<?php
+include 'auth.php';
 include 'db.php'; 
 $msg = "";
 
